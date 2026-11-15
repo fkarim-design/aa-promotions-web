@@ -116,3 +116,4 @@ reformat, trim or regenerate them.
 | Version | Title | Description |
 | --- | --- | --- |
 | v1.0 | A first look at the A&A Promotion website | A&A Promotion now has a demo website to show them: one page that introduces Andrea and Audrey, presents their brunch, polo and social events, walks through booking, gathers guest-list sign-ups and answers common questions, comfortable on a phone and polished on a laptop. Beside it, the offer page sets out the price and terms, and clearly marked notes show exactly where their dates, photos and logo will go. |
+| v1.1 | Their own Instagram line now leads the site | The home page now opens with A&A's own words from Instagram, "Creating tailored experiences with a difference", set beneath their name, so the first thing a guest reads is how they describe themselves. The notes behind the site now record what their Instagram shows and what is still needed from them. |

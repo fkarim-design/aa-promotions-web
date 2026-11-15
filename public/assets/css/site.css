@@ -111,7 +111,8 @@ section{padding:clamp(56px, 8vw, 104px) 0}
   color:var(--accent);opacity:.07;pointer-events:none;user-select:none}
 .hero-grid{position:relative;display:grid;grid-template-columns:minmax(0, 1.05fr) minmax(0, .95fr);
   gap:clamp(32px, 5vw, 72px);align-items:center}
-.hero-title{margin-bottom:.28em}
+.hero-title{margin-bottom:.22em}
+.tagline{font:600 clamp(1.25rem, 2.3vw, 1.65rem)/1.3 var(--display);color:var(--accent-ink);margin:0 0 .75em;text-wrap:balance}
 .hero-copy .lede{max-width:34ch}
 .hero-tiles{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2, minmax(0,1fr));
   gap:clamp(10px, 1.6vw, 16px)}
