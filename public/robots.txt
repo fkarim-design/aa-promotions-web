@@ -1,0 +1,3 @@
+# Pitch demo: keep every page out of search indexes until the site is handed over.
+User-agent: *
+Disallow: /

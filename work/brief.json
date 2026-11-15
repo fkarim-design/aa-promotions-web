@@ -1,0 +1,58 @@
+{
+  "client": "aa-promotions",
+  "captured": "2026-11-15",
+  "brand": {
+    "name": { "value": "A&A Promotion", "source": "client-brief:title", "seen": "2026-11-15", "confidence": "confirmed" },
+    "tone": { "value": "Stylish and professional; warm, welcoming and easy to navigate; suited to promoting special events; good on phones and computers", "source": "client-brief:§7", "seen": "2026-11-15", "confidence": "confirmed" },
+    "colors": { "value": ["#FBF6EE", "#22151F", "#E8643C", "#F3B23F", "#2A1630", "#2F6B4F", "#7A3466"], "source": "proposal:client-brief §7 (no colours given)", "seen": "2026-11-15", "confidence": "unconfirmed" },
+    "display_font": { "value": "Fraunces", "source": "proposal:client-brief §7 (no typeface given; house Oswald set aside because the brief asks for stylish and warm)", "seen": "2026-11-15", "confidence": "unconfirmed" },
+    "body_font": { "value": "Inter", "source": "house-style:default", "seen": "2026-11-15", "confidence": "unconfirmed" },
+    "logo": { "value": null, "source": "client-brief:§7 'We can share our logo, flyers'", "seen": "2026-11-15", "confidence": "unconfirmed" }
+  },
+  "facts": {
+    "offering": { "value": "An events business that organises enjoyable, memorable experiences that bring people together", "source": "client-brief:§1", "seen": "2026-11-15", "confidence": "confirmed" },
+    "owners": { "value": "Run by Andrea Chisholm and Audrey Williams", "source": "client-brief:§1", "seen": "2026-11-15", "confidence": "confirmed" },
+    "past_events": { "value": "Caribbean brunches, polo experiences and social outings", "source": "client-brief:§1", "seen": "2026-11-15", "confidence": "confirmed" },
+    "exploring": { "value": "Wine and gin days and other special events", "source": "client-brief:§1", "seen": "2026-11-15", "confidence": "confirmed" },
+    "audience": { "value": "Adults interested in social events, celebrations and group experiences", "source": "client-brief:§3", "seen": "2026-11-15", "confidence": "confirmed" },
+    "how_guests_hear": { "value": "Personal recommendations, WhatsApp and social media", "source": "client-brief:§3", "seen": "2026-11-15", "confidence": "confirmed" },
+    "deposits": { "value": "Offered on some events ('Pay a deposit where this is offered')", "source": "client-brief:§5", "seen": "2026-11-15", "confidence": "confirmed" },
+    "instagram": { "value": "@aandapromotion — https://www.instagram.com/aandapromotion", "source": "client-brief:link", "seen": "2026-11-15", "confidence": "confirmed" },
+    "domain": { "value": "They own a domain already; the name was not given", "source": "client-brief:§10", "seen": "2026-11-15", "confidence": "confirmed" }
+  },
+  "wants": {
+    "pages": { "value": "Home, About Us, Upcoming Events, Past Events and Gallery, FAQ, Contact Us — layout advice welcome", "source": "client-brief:§4" },
+    "bookings": { "value": "Book and pay online; deposit where offered; balance later, instalments if possible; confirmation and receipt; terms before booking; waiting list when full", "source": "client-brief:§5" },
+    "mailing_list": { "value": "Visitors sign up to hear about future events, with permission managed and data exportable", "source": "client-brief:§6" },
+    "contact": { "value": "Contact form, social links, and a WhatsApp button to discuss", "source": "client-brief:§4" },
+    "self_management": { "value": "Both owners able to update events, prices, photos and text, see bookings and enquiries, reach the mailing list", "source": "client-brief:§9" }
+  },
+  "conflicts": [],
+  "gaps": [
+    "No current website found to copy: the brief says they own a domain but does not name it, so there is no Current site tab.",
+    "Instagram (@aandapromotion) could not be read: the build sandbox's network policy blocks instagram.com. Bio, posts, flyers and photos unseen.",
+    "A web search found nothing public about A&A Promotion beyond the brief.",
+    "No logo, brand colours or typefaces: palette and type on the demo are proposals.",
+    "No photographs: gallery tiles and portraits are designed placeholders.",
+    "No event details: dates, venues, prices, what is included, deposit amounts.",
+    "No phone number, WhatsApp number or email address.",
+    "No town, city or area the events are based in.",
+    "No guest comments cleared for use.",
+    "No booking terms: deposits, payment plans, cancellations, refunds.",
+    "No privacy notice for the mailing list sign-up.",
+    "No bios or photos for Andrea and Audrey."
+  ],
+  "questions": [
+    "What is your domain name, and is there anything on it today?",
+    "Can you send your logo (SVG or a large PNG) and a few flyers? Any brand colours or fonts you already use?",
+    "What is the next event: name, date, time, venue, price, what is included, and is there a deposit?",
+    "Which number should the WhatsApp button open, and which email should enquiries go to?",
+    "Which town, city or area are your events based in?",
+    "Which photos and guest comments are you happy for us to use?",
+    "What are your deposit, payment-plan, cancellation and refund terms?",
+    "Could you each send a photo and a line or two about yourselves?",
+    "Do you already use a ticketing site or mailing list (Eventbrite, Mailchimp or similar) that we should connect or move from?",
+    "Is 'A&A Promotion' exactly how you write the name?"
+  ],
+  "photos": []
+}

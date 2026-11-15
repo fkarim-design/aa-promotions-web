@@ -1,0 +1,76 @@
+/* The offer page — the site-pitch offer template, dressed in the new site's
+   own tokens so tabs 1 and 2 look the same age. */
+:root{
+  --op-bg:#FBF6EE;
+  --op-ink:#22151F;
+  --op-soft:#5B4A55;
+  --op-accent:#E8643C;
+  --op-accent-ink:#A93C1A;
+  --op-panel:#F3E6D6;
+  --op-card:#FFFCF7;
+  --op-dark:#2A1630;
+  --op-light:#FFF8EC;
+  --op-sun:#F3B23F;
+  --op-radius:16px;
+  --op-display:"Fraunces",Georgia,"Times New Roman",serif;
+  --op-body:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--op-bg);color:var(--op-ink);
+  font:400 17px/1.55 var(--op-body);-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration-color:var(--op-accent);text-decoration-thickness:2px;text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--op-ink);outline-offset:3px;border-radius:4px}
+.band-dark :focus-visible{outline-color:var(--op-sun)}
+h1,h2,h3{font-family:var(--op-display);font-weight:600;line-height:1.08;letter-spacing:-.01em;
+  margin:0 0 .4em;max-width:none;hyphens:none;overflow-wrap:normal} /* law 2 + law 1 */
+h1{font-size:clamp(2.3rem,7vw,4.4rem);letter-spacing:-.02em}
+h2{font-size:clamp(1.8rem,4.6vw,2.8rem)}
+p{max-width:65ch}
+section{padding:clamp(52px,7vw,88px) 20px}
+.wrap{max-width:1080px;margin:0 auto}
+.band-dark{background:var(--op-dark);color:var(--op-light)}
+.band-panel{background:var(--op-panel)}
+.kicker{font:600 12.5px/1.2 var(--op-body);letter-spacing:.16em;text-transform:uppercase;
+  color:var(--op-accent-ink);margin:0 0 12px}
+.band-dark .kicker{color:var(--op-sun)}
+.amp{color:var(--op-accent)}
+.intro{font-size:clamp(1.1rem,2vw,1.3rem);margin:0}
+.grid{display:grid;gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))} /* law 3 */
+.card{background:var(--op-card);border:1px solid rgba(34,21,31,.14);border-radius:var(--op-radius);
+  padding:26px 24px;position:relative;overflow:hidden}
+.card .tag{position:absolute;top:0;right:0;background:var(--op-dark);color:var(--op-light);
+  font:600 10.5px/1 var(--op-body);letter-spacing:.14em;text-transform:uppercase;padding:8px 11px;
+  border-bottom-left-radius:10px}
+.card h3{font-size:1.6rem;margin:6px 0 .25em}
+.card p{margin:0;color:var(--op-soft)}
+
+/* Tale of the tape: pairs. What they asked for on top, quiet; what the new
+   site does underneath, in the dark band colour. A title and one line each. */
+.tape{display:grid;gap:18px;
+  grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))} /* law 3 */
+.pair{display:grid;grid-template-rows:1fr 1fr;border:1px solid rgba(34,21,31,.14);
+  border-radius:var(--op-radius);overflow:hidden;background:var(--op-card)}
+.pair>div{padding:22px 22px 24px}
+.pair .new{background:var(--op-dark);color:var(--op-light)}
+.pair .lbl{display:block;font:600 11.5px/1 var(--op-body);letter-spacing:.14em;text-transform:uppercase;
+  color:var(--op-soft);margin-bottom:12px}
+.pair .new .lbl{color:var(--op-sun)}
+.pair h3{font-size:clamp(1.25rem,2.6vw,1.5rem);margin:0 0 .3em}
+.pair p{margin:0;font-size:15.5px;line-height:1.5}
+.pair .now p{color:var(--op-soft)}
+
+.price{font:600 clamp(2.8rem,9vw,4.2rem)/1 var(--op-display);margin-top:8px}
+.price small{font:600 12.5px/1.35 var(--op-body);text-transform:uppercase;letter-spacing:.1em;
+  display:block;margin-top:12px;color:var(--op-soft)}
+.struck{color:#6B5E5F;margin:0 0 22px}
+.struck s{text-decoration-thickness:2px;font-weight:600}
+.cheap{margin:26px 0 0;font-size:1.05rem}
+.strip{display:grid;gap:1px;border-radius:var(--op-radius);overflow:hidden;
+  grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr));
+  background:rgba(34,21,31,.14);border:1px solid rgba(34,21,31,.14)}
+.strip div{background:var(--op-card);padding:18px;font-size:15px;color:var(--op-soft)}
+.strip b{display:block;font:600 1.15rem/1.2 var(--op-display);color:var(--op-ink);margin-bottom:6px}
+.close{text-align:center}
+.close p{margin:0 auto;font-size:clamp(1.1rem,2vw,1.3rem)}
+.referral p{margin:0}
