@@ -12,7 +12,7 @@
   <meta name="theme-color" content="#2A1630">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/fonts/fonts.css">
-  <link rel="stylesheet" href="/assets/css/site.css?v=1.1">
+  <link rel="stylesheet" href="/assets/css/site.css?v=1.2">
   <script src="/assets/js/site.js?v=1.0" defer></script>
 </head>
 <body>
@@ -164,12 +164,13 @@
           <a class="link-arrow" href="#whats-on">See what's on <svg aria-hidden="true"><use href="#icon-arrow"/></svg></a>
         </div>
       </div>
-      <ul class="hero-tiles" aria-label="Our experiences">
-        <li><a class="tile tile-brunch" href="#brunch"><svg class="tile-art" aria-hidden="true"><use href="#art-brunch"/></svg><span class="tile-label">Caribbean brunch</span></a></li>
-        <li><a class="tile tile-polo" href="#polo"><svg class="tile-art" aria-hidden="true"><use href="#art-polo"/></svg><span class="tile-label">Polo</span></a></li>
-        <li><a class="tile tile-outings" href="#outings"><svg class="tile-art" aria-hidden="true"><use href="#art-outings"/></svg><span class="tile-label">Social outings</span></a></li>
-        <li><a class="tile tile-winegin" href="#wine-gin"><svg class="tile-art" aria-hidden="true"><use href="#art-winegin"/></svg><span class="tile-label">Wine &amp; gin days</span></a></li>
-      </ul>
+      <figure class="hero-photo">
+        <img src="/assets/img/polo-day-group-1000.webp"
+             srcset="/assets/img/polo-day-group-640.webp 640w, /assets/img/polo-day-group-1000.webp 1000w, /assets/img/polo-day-group-1330.webp 1330w"
+             sizes="(max-width: 899px) 100vw, 520px" width="1330" height="887" fetchpriority="high"
+             alt="A large group in colourful prints and outfits gathered together at Lux Afrique Polo Day">
+        <figcaption>At Lux Afrique Polo Day</figcaption>
+      </figure>
     </div>
   </section>
 
@@ -323,16 +324,15 @@
         <p class="lede">A&amp;A Promotion is an events business run by Andrea Chisholm and Audrey Williams. We organise enjoyable, memorable experiences that bring people together.</p>
         <p>Our events have included Caribbean brunches, polo experiences and social outings. We're also exploring new experiences, including wine and gin days and other special events.</p>
       </div>
-      <div class="people">
-        <figure class="person">
-          <div class="portrait portrait-a" aria-hidden="true">AC</div>
-          <figcaption>Andrea Chisholm</figcaption>
+      <div class="about-photo">
+        <figure class="duo">
+          <span class="duo-frame"><img src="/assets/img/andrea-audrey-640.webp"
+               srcset="/assets/img/andrea-audrey-320.webp 320w, /assets/img/andrea-audrey-640.webp 640w"
+               sizes="320px" width="640" height="566" loading="lazy" decoding="async"
+               alt="Andrea and Audrey smiling cheek to cheek in their A&amp;A Promotion sashes"></span>
+          <figcaption>Andrea (left) and Audrey</figcaption>
         </figure>
-        <figure class="person">
-          <div class="portrait portrait-b" aria-hidden="true">AW</div>
-          <figcaption>Audrey Williams</figcaption>
-        </figure>
-        <p class="demo-note"><span class="demo-chip">Demo</span> A photo and a line about each of you.</p>
+        <p class="demo-note"><span class="demo-chip">Demo</span> A line or two about each of you.</p>
       </div>
     </div>
   </section>
@@ -343,16 +343,60 @@
         <p class="kicker">Past events</p>
         <h2 id="gallery-title">Past events &amp; gallery</h2>
       </div>
-      <p class="demo-note"><span class="demo-chip">Demo</span> Your event photos, and the guest comments you're happy to share, go here. We'll pick the best together.</p>
+      <p class="demo-note"><span class="demo-chip">Demo</span> Photos from A&amp;A. Before launch: confirm everyone pictured is happy to appear, tell us which event each indoor photo is from, and send any guest comments you'd like to share.</p>
       <div class="gallery-grid">
-        <figure class="frame frame-brunch frame-big"><svg aria-hidden="true"><use href="#art-brunch"/></svg><figcaption>Caribbean brunch</figcaption></figure>
-        <figure class="frame frame-polo"><svg aria-hidden="true"><use href="#art-polo"/></svg><figcaption>Polo</figcaption></figure>
-        <figure class="frame frame-outings"><svg aria-hidden="true"><use href="#art-outings"/></svg><figcaption>Social outings</figcaption></figure>
-        <a class="frame frame-insta" href="https://www.instagram.com/aandapromotion" rel="noopener">
-          <svg class="insta-icon" aria-hidden="true"><use href="#icon-instagram"/></svg>
-          <span>Follow along on Instagram<strong>@aandapromotion</strong></span>
+        <a class="shot shot-tall" href="/assets/img/polo-day-trio-large.webp">
+          <img src="/assets/img/polo-day-trio-640.webp" srcset="/assets/img/polo-day-trio-400.webp 400w, /assets/img/polo-day-trio-640.webp 640w"
+               sizes="(max-width: 699px) 50vw, 280px" width="640" height="1078" loading="lazy" decoding="async"
+               alt="Two women in bold African prints with a polo player in white at Lux Afrique Polo Day">
+          <span class="shot-cap">Lux Afrique Polo Day</span>
+        </a>
+        <a class="shot shot-wide" href="/assets/img/dance-floor-large.webp">
+          <img src="/assets/img/dance-floor-1200.webp" srcset="/assets/img/dance-floor-800.webp 800w, /assets/img/dance-floor-1200.webp 1200w"
+               sizes="(max-width: 699px) 100vw, 560px" width="1200" height="491" loading="lazy" decoding="async"
+               alt="Guests dancing together across a wooden dance floor">
+        </a>
+        <a class="shot shot-tall" href="/assets/img/polo-day-swing-large.webp">
+          <img src="/assets/img/polo-day-swing-640.webp" srcset="/assets/img/polo-day-swing-400.webp 400w, /assets/img/polo-day-swing-640.webp 640w"
+               sizes="(max-width: 699px) 50vw, 280px" width="640" height="969" loading="lazy" decoding="async"
+               alt="Two women in bold prints sitting on a flower-trimmed swing at Lux Afrique Polo Day">
+          <span class="shot-cap">Lux Afrique Polo Day</span>
+        </a>
+        <a class="shot" href="/assets/img/hosts-at-the-banner-large.webp">
+          <img src="/assets/img/hosts-at-the-banner-800.webp" srcset="/assets/img/hosts-at-the-banner-480.webp 480w, /assets/img/hosts-at-the-banner-800.webp 800w"
+               sizes="(max-width: 699px) 50vw, 280px" width="800" height="533" loading="lazy" decoding="async"
+               alt="Audrey in her A&amp;A sash with a guest performer and her co-host, in front of the gold A&amp;A banner">
+        </a>
+        <a class="shot" href="/assets/img/cake-and-microphone-large.webp">
+          <img src="/assets/img/cake-and-microphone-800.webp" srcset="/assets/img/cake-and-microphone-480.webp 480w, /assets/img/cake-and-microphone-800.webp 800w"
+               sizes="(max-width: 699px) 50vw, 280px" width="800" height="533" loading="lazy" decoding="async"
+               alt="A guest holding a celebration cake while a host speaks into a microphone">
+        </a>
+        <a class="shot" href="/assets/img/around-the-table-large.webp">
+          <img src="/assets/img/around-the-table-800.webp" srcset="/assets/img/around-the-table-480.webp 480w, /assets/img/around-the-table-800.webp 800w"
+               sizes="(max-width: 699px) 50vw, 280px" width="800" height="533" loading="lazy" decoding="async"
+               alt="Three guests smiling arm in arm at a table dressed with flowers">
+        </a>
+        <a class="shot" href="/assets/img/laughing-with-microphones-large.webp">
+          <img src="/assets/img/laughing-with-microphones-800.webp" srcset="/assets/img/laughing-with-microphones-480.webp 480w, /assets/img/laughing-with-microphones-800.webp 800w"
+               sizes="(max-width: 699px) 50vw, 280px" width="800" height="533" loading="lazy" decoding="async"
+               alt="Two guests laughing together, one holding a pink microphone, with more guests at tables behind">
+        </a>
+        <a class="shot" href="/assets/img/live-singer-large.webp">
+          <img src="/assets/img/live-singer-800.webp" srcset="/assets/img/live-singer-480.webp 480w, /assets/img/live-singer-800.webp 800w"
+               sizes="(max-width: 699px) 50vw, 280px" width="800" height="533" loading="lazy" decoding="async"
+               alt="A singer performing between the tables to seated guests">
+        </a>
+        <a class="shot" href="/assets/img/guest-and-performer-large.webp">
+          <img src="/assets/img/guest-and-performer-800.webp" srcset="/assets/img/guest-and-performer-480.webp 480w, /assets/img/guest-and-performer-800.webp 800w"
+               sizes="(max-width: 699px) 50vw, 280px" width="800" height="533" loading="lazy" decoding="async"
+               alt="A guest in a bright orange print top posing with a performer in sunglasses">
         </a>
       </div>
+      <a class="insta-band" href="https://www.instagram.com/aandapromotion" rel="noopener">
+        <svg aria-hidden="true"><use href="#icon-instagram"/></svg>
+        <span>Follow along on Instagram <strong>@aandapromotion</strong></span>
+      </a>
     </div>
   </section>
 

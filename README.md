@@ -20,6 +20,7 @@ public/            everything Cloudflare serves (no build step)
   404.html
   assets/css/      site.css, offer.css
   assets/js/       site.js (tab deep links, demo form messages)
+  assets/img/      web copies of A&A's photos (WebP, metadata stripped)
   fonts/           self-hosted Fraunces and Inter, fonts.css
   favicon.svg
   _headers         security, caching, noindex
@@ -48,12 +49,20 @@ The site is built strictly from A&A's own brief. Where a detail is missing, a
 black "Demo" note says what goes there instead of guessing:
 
 - event dates, venues, prices and what's included (the cards read "To be announced")
-- photos for the gallery and of Andrea and Audrey
+- which event each indoor photo is from (none is labelled a Caribbean brunch yet)
+- a line about Andrea and Audrey, and guest comments
 - the logo, brand colours and fonts (the palette and type are proposals)
 - the WhatsApp number and the inbox the contact form sends to
 - the mailing-list and ticketing accounts the forms and booking steps connect to
 
 The open questions for the client are listed in `work/brief.json`.
+
+## Photos
+
+A&A's photos (supplied 19 November 2026) appear in the hero, the About
+section and the gallery as resized WebP copies; the originals are archived in
+`prompt text/`. They are not yet cleared for a public launch: everyone pictured,
+and whoever took them, should agree first.
 
 ## External resources
 

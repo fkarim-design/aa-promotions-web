@@ -41,9 +41,15 @@
       "confidence": "unconfirmed"
     },
     "logo": {
-      "value": null,
-      "source": "client-brief:§7 'We can share our logo, flyers'",
-      "seen": "2026-11-15",
+      "value": "A gold A&A monogram in a ring, seen on a royal-blue banner in a supplied photo; no logo file yet",
+      "source": "client-photo:931c7f8a-449e-49d2-a1da-e6d349f6c216.jpeg",
+      "seen": "2026-11-19",
+      "confidence": "unconfirmed"
+    },
+    "observed_colors": {
+      "value": "Royal blue and gold (banner and sashes in supplied photos); the site palette is still the proposal",
+      "source": "client-photo:931c7f8a-449e-49d2-a1da-e6d349f6c216.jpeg, 5a3ed8ec-ea79-4283-bf85-61bacbe162b0.jpeg",
+      "seen": "2026-11-19",
       "confidence": "unconfirmed"
     }
   },
@@ -113,6 +119,12 @@
       "source": "instagram:bio (search-engine snippet of the profile; the page itself is blocked in the build sandbox)",
       "seen": "2026-11-15",
       "confidence": "unconfirmed"
+    },
+    "polo_day": {
+      "value": "A&A photos taken at Lux Afrique Polo Day, someone else's event: the site says 'at', never 'by'",
+      "source": "client-photos:dbaaebef-776f-461a-8067-c91108429665.jpeg, 91b9a431-a97d-43b9-bea6-88fd9a33a19b.jpeg, 9217a25e-0217-4b4d-a4c0-fc1184bddc4e.jpeg (backdrop text)",
+      "seen": "2026-11-19",
+      "confidence": "confirmed"
     }
   },
   "wants": {
@@ -143,28 +155,119 @@
     "Instagram (@aandapromotion): the profile page cannot be opened from the build sandbox (network policy), and Instagram shows posts only to signed-in visitors. Only a search-engine snippet was read: display name, bio and counts. Posts, flyers and photos unseen.",
     "A web search found nothing public about A&A Promotion beyond the brief.",
     "No logo, brand colours or typefaces: palette and type on the demo are proposals.",
-    "No photographs: gallery tiles and portraits are designed placeholders.",
     "No event details: dates, venues, prices, what is included, deposit amounts.",
     "No phone number, WhatsApp number or email address.",
     "No town, city or area the events are based in.",
     "No guest comments cleared for use.",
     "No booking terms: deposits, payment plans, cancellations, refunds.",
     "No privacy notice for the mailing list sign-up.",
-    "No bios or photos for Andrea and Audrey.",
-    "A similarly named account, @a.a.promotions ('A&A Promotions', Spanish-language presales), appears unrelated; the site links only to @aandapromotion."
+    "A similarly named account, @a.a.promotions ('A&A Promotions', Spanish-language presales), appears unrelated; the site links only to @aandapromotion.",
+    "Photos: eleven supplied on 2026-11-19, none cleared yet for public launch. The indoor shots' event is unknown, so none is labelled a Caribbean brunch and the experience tabs keep their illustrations.",
+    "Names are shown only where a photo proves them: Andrea and Audrey in the sash photo. Elsewhere captions and alt text describe without naming.",
+    "No bios for Andrea and Audrey."
   ],
   "questions": [
     "What is your domain name, and is there anything on it today?",
-    "Can you send your logo (SVG or a large PNG) and a few flyers? Any brand colours or fonts you already use?",
+    "Can you send the logo file (the gold A&A monogram on your banner), as SVG or a large PNG? Your banner and sashes suggest royal blue and gold: are those your brand colours?",
     "What is the next event: name, date, time, venue, price, what is included, and is there a deposit?",
     "Which number should the WhatsApp button open, and which email should enquiries go to?",
     "Which town, city or area are your events based in?",
-    "Which photos and guest comments are you happy for us to use?",
+    "Is everyone in the eleven photos happy to appear on the website, and who took the indoor photos (for credit and permission)? Which guest comments can we use?",
     "What are your deposit, payment-plan, cancellation and refund terms?",
-    "Could you each send a photo and a line or two about yourselves?",
+    "Could you each send a line or two about yourselves?",
     "Do you already use a ticketing site or mailing list (Eventbrite, Mailchimp or similar) that we should connect or move from?",
     "Your Instagram bio says 'Creating tailored experiences with a difference.' Happy for that to lead the site? Does 'tailored' mean you also plan private events for groups?",
-    "Could you send screenshots or originals of a few recent flyers and posts?"
+    "Could you send screenshots or originals of a few recent flyers and posts?",
+    "Which event is each indoor photo from? Is any of them a Caribbean brunch?"
   ],
-  "photos": []
+  "photos": [
+    {
+      "file": "public/assets/img/andrea-audrey-*.webp",
+      "original": "prompt text/3/5a3ed8ec-ea79-4283-bf85-61bacbe162b0.jpeg",
+      "used": "About: Andrea and Audrey, named from the sash",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/dance-floor-*.webp",
+      "original": "prompt text/3/90a8f779-ac8c-4050-affd-c11bca6a6906.jpeg",
+      "used": "Gallery, wide",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/around-the-table-*.webp",
+      "original": "prompt text/3/4cef5851-fc21-4ac0-b997-d74fd7cf64e8.jpeg",
+      "used": "Gallery",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/guest-and-performer-*.webp",
+      "original": "prompt text/3/e8cb6f3c-cd7c-4b6c-a875-8eb0dabd7585.jpeg",
+      "used": "Gallery",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/cake-and-microphone-*.webp",
+      "original": "prompt text/3/bdbb205b-fe98-4f5a-a274-f4143864d73f.jpeg",
+      "used": "Gallery",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/laughing-with-microphones-*.webp",
+      "original": "prompt text/3/df2b4b05-546f-4a9d-93ef-500c9fd78823.jpeg",
+      "used": "Gallery (looks like a different room)",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/hosts-at-the-banner-*.webp",
+      "original": "prompt text/3/931c7f8a-449e-49d2-a1da-e6d349f6c216.jpeg",
+      "used": "Gallery",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/live-singer-*.webp",
+      "original": "prompt text/3/90b0c72d-a164-4994-84f3-0a2f9309f63e.jpeg",
+      "used": "Gallery",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/polo-day-trio-*.webp",
+      "original": "prompt text/3/dbaaebef-776f-461a-8067-c91108429665.jpeg",
+      "used": "Gallery, tall, captioned Lux Afrique Polo Day",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/polo-day-swing-*.webp",
+      "original": "prompt text/3/91b9a431-a97d-43b9-bea6-88fd9a33a19b.jpeg",
+      "used": "Gallery, tall, captioned Lux Afrique Polo Day",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    },
+    {
+      "file": "public/assets/img/polo-day-group-*.webp",
+      "original": "prompt text/3/9217a25e-0217-4b4d-a4c0-fc1184bddc4e.jpeg",
+      "used": "Hero, cropped to the group, captioned At Lux Afrique Polo Day",
+      "source": "client: supplied by Fidel 2026-11-19",
+      "theirs": true,
+      "cleared": false
+    }
+  ]
 }

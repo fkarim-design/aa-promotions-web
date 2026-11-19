@@ -18,6 +18,7 @@ public/            everything served
   offer/index.html the offer
   404.html         themed not-found page
   assets/css|js    site.css, offer.css, site.js
+  assets/img/      WebP copies of A&A's photos; names are final (cached a year)
   fonts/           self-hosted Fraunces 600 + Inter 400/600, fonts.css
   favicon.svg
   _headers         security + caching headers (+ noindex while a demo)
@@ -64,6 +65,9 @@ batches: implement, verify, commit, push.
   `data-demo` and `To be announced` when their details arrive.
 - The palette and typefaces are proposals until A&A send their logo. They live
   as tokens at the top of `site.css` and `offer.css`; change them there.
+- Photos come from A&A. Name people only where the photo itself proves who
+  they are (a legible sash), and say "at" for events A&A attended but did not
+  run, such as Lux Afrique Polo Day. A re-crop gets a new file name.
 - Client-facing copy avoids "cost", "contract", "options" and "expensive", and
   writes prices in their shortest honest form.
 - When CSS or JS changes, bump the `?v=` stamp on its links - `/assets/*` is
@@ -117,3 +121,4 @@ reformat, trim or regenerate them.
 | --- | --- | --- |
 | v1.0 | A first look at the A&A Promotion website | A&A Promotion now has a demo website to show them: one page that introduces Andrea and Audrey, presents their brunch, polo and social events, walks through booking, gathers guest-list sign-ups and answers common questions, comfortable on a phone and polished on a laptop. Beside it, the offer page sets out the price and terms, and clearly marked notes show exactly where their dates, photos and logo will go. |
 | v1.1 | Their own Instagram line now leads the site | The home page now opens with A&A's own words from Instagram, "Creating tailored experiences with a difference", set beneath their name, so the first thing a guest reads is how they describe themselves. The notes behind the site now record what their Instagram shows and what is still needed from them. |
+| v1.2 | A&A's own photos bring the site to life | The site now shows A&A's real events: the group at Lux Afrique Polo Day leads the home page, Andrea and Audrey greet visitors in the About section, and nine more photos from their events and the polo day fill the gallery, each opening larger with a tap. The rest of the site is unchanged while A&A confirm that everyone pictured is happy to appear. |

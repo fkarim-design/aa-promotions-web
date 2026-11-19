@@ -1,0 +1,22 @@
+A&A's photos are on the site as **v1.2**, pushed to `main` and `claude/gifted-sagan-o6gtxt`. As you chose, the 11 full-size originals are in the public repo's archive (`prompt text/3/`), and the site uses resized copies with the camera data stripped. Screenshots are attached.
+
+**Where each photo went**
+- **Hero:** the big group shot at Lux Afrique Polo Day, cropped tight on the people so the sponsor wall isn't the headline. It replaces the illustrated tiles.
+- **About:** the photo-booth shot of Andrea and Audrey in their sashes, replacing the initials. It's the only photo where a sash proves who is who, so it's the only place the site names them. It shows at most 320px wide, because the original is small.
+- **Gallery:** the other nine, each opening a larger copy on tap:
+  - Lux Afrique Polo Day: the swing and the polo-player shots, captioned "Lux Afrique Polo Day". Every mention says "at", never implying A&A ran it.
+  - Indoor events: the dance floor, the A&A banner, the cake, the table of three, the two laughing with microphones, the singer, and the guest in orange. They're uncaptioned because I can't tell which events they're from.
+- **Experience tabs:** they keep their illustrations. Nothing in the photos shows a Caribbean brunch, and the microphone shot looks like a different room.
+
+**Not changed yet:** the colours. Their banner shows a gold A&A monogram on royal blue and the sashes are royal blue, so the coral palette is probably not theirs. I've recorded that as unconfirmed rather than re-skin from a photo. If you'd like, I can switch the site to blue and gold next; their logo file would make it exact.
+
+**Before this goes beyond a demo**, A&A should confirm that everyone pictured is happy to appear, who took the indoor photos, and which event each indoor photo is from. Those questions are in `work/brief.json` and on the gallery's demo note.
+
+**Verified**
+- **Layout gate:** passes for the new site, the offer and the 404 at all 13 widths from 320 to 1920px.
+- **Cloudflare:** the dry-run deploy and the link check are clean.
+- **Photos:** all 11 load at phone and desktop sizes at 1× and 2× density, with no failed requests. All nine gallery links open, and every photo has alt text.
+- **Behaviour and checks:** tabs, deep links and forms still work, and the axe scan and the-sell's checker are clean. I looked at the gallery at 320, 390, 700 and 1440px; the faces stay in frame.
+- **Cache:** the stylesheet's cache stamp is v1.2, so returning visitors get the new layout.
+
+`prompt text/3/` replaces version 2 with this request, this reply and the 11 originals under your file names.
